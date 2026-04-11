@@ -184,11 +184,20 @@ p {
   }
 
   .hero-content {
-    padding: 2rem 1.25rem 3rem;
+    top: 2%;
+    padding: 0 1rem;
+  }
+
+  .names {
+    font-size: 1.8rem;
   }
 
   .hero-content h1 {
-    font-size: 2.4rem;
+    font-size: 3rem;
+  }
+
+  .date {
+    font-size: 1.3rem;
   }
 
   .hero-content p {
@@ -231,20 +240,20 @@ p {
     font-size: 1.05rem;
   }
 
-  .hero-content {
-    top: 8%;
+   .hero-content {
+    top: 1.5%;
   }
 
   .names {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
   }
 
   .hero-content h1 {
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
 
   .date {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .hero-content p {
