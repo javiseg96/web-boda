@@ -30,6 +30,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
 }
 
 .nav {
@@ -60,9 +61,15 @@ p {
 }
 
 .hero-content {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  color: white;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  transform: translateX(-50%);
   text-align: center;
-  padding: 2rem 1.5rem 4rem;
-  margin: auto 0;
+  padding: 0 1.5rem;
+  width: 100%;
 }
 
 .hero-content h1 {
@@ -74,6 +81,16 @@ p {
 .hero-content p {
   font-size: 1.2rem;
   margin-bottom: 1rem;
+}
+
+.names {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.date {
+  font-size: 1.2rem;
 }
 
 .btn {
@@ -208,8 +225,20 @@ p {
     font-size: 1.05rem;
   }
 
+  .hero-content {
+    top: 8%;
+  }
+
+  .names {
+    font-size: 1.3rem;
+  }
+
   .hero-content h1 {
     font-size: 2rem;
+  }
+
+  .date {
+    font-size: 1rem;
   }
 
   .hero-content p {
