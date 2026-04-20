@@ -275,13 +275,15 @@
         font-size: 1.18rem;
       }
 
-      .section h2 {
-      font-size: 3rem;
-      line-height: 1.2;
-      }
+    .section h2 {
+      font-size: 12rem;
+    }
 
-      .faq-item h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      }
+    .section h3 {
+      font-size: 8rem;
+    }
+
+    .section p {
+    font-size: 7.2rem;
+    }
     }
