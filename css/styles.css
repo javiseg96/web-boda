@@ -34,33 +34,37 @@ p {
 .nav {
   position: relative;
   z-index: 2;
-  padding: 1.5rem 2rem;
+  width: 100%;
+  padding: 1.5rem 2rem 0 2rem;
 }
 
 .menu {
   list-style: none;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1.25rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.8rem;
+  width: 100%;
 }
 
 .menu li {
-  margin: 0;
+  width: 100%;
+  text-align: right;
 }
 
 .menu a {
+  display: inline-block;
   text-decoration: none;
   color: white;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  text-align: right;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
 }
 
 .hero-content {
   position: absolute;
-  top: 10%;
+  top: 7%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
@@ -75,7 +79,7 @@ p {
   font-size: 4.2rem;
   font-weight: 700;
   line-height: 1.05;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .hero-title {
@@ -91,6 +95,9 @@ p {
 }
 
 .hero-counter {
+  position: absolute;
+  top: 75%;
+  left: 75%;
   font-size: 1.3rem;
   margin-bottom: 0;
 }
