@@ -204,7 +204,8 @@ a {
   }
 
   .menu a {
-    font-size: 1.1rem;
+    /*font-size: 1.1rem;  original*/
+    font-size: 2.2rem;
   }
 
   .hero-content {
@@ -217,11 +218,13 @@ a {
   }
 
   .section h2 {
-    font-size: 3.2rem;
+    /*font-size: 3.2rem;  original*/
+    font-size: 6.4rem;
   }
 
   .section h3 {
-    font-size: 2.3rem;
+    /*font-size: 2.3rem;  original*/
+    font-size: 4.6rem;
   }
 
   .cajita,
@@ -231,8 +234,10 @@ a {
 
   .cajita p,
   .faq-item p {
-    font-size: 2.1rem;
-    line-height: 1.65;
+    /*font-size: 2.1rem;    original
+    line-height: 1.65;    */
+    font-size: 4.2rem;
+    line-height: 3.3;
   }
 }
 
@@ -243,7 +248,8 @@ a {
   }
 
   .menu a {
-    font-size: 1.15rem;
+    /*font-size: 1.15rem; original*/
+    font-size: 1.3rem;
   }
 
   .hero-content {
@@ -252,16 +258,20 @@ a {
   }
 
   .section h2 {
-    font-size: 3.2rem;
+    /*font-size: 3.2rem;  original*/
+    font-size: 6.4rem;
   }
 
   .section h3 {
-    font-size: 2.3rem;
+    /*font-size: 2.3rem;  original*/
+    font-size: 4.6rem;
   }
 
   .cajita p,
   .faq-item p {
-    font-size: 2rem;
-    line-height: 1.6;
+    /*font-size: 2rem;    original
+    line-height: 1.6;   */
+    font-size: 4rem;
+    line-height: 3.2;
   }
 }
