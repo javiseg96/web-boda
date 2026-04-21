@@ -193,14 +193,22 @@ a {
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
+.faq-item {
+  padding: 1.75rem;
+}
+
 .faq-item h3 {
   margin-bottom: 0.75rem;
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
 }
 
 .faq-item p {
   color: #555;
   max-width: none;
   margin: 0 0 1rem 0;
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
 }
 
 .footer {
@@ -273,9 +281,18 @@ a {
     font-size: 4.6rem;
   }
 
-  .cajita,
-  .faq-item {
+  .cajita {
     padding: 1.25rem;
+  }
+
+  .faq-item {
+    padding: 1.35;
+  }
+
+  .faq-item h3,
+  .faq-item p {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .cajita p,
@@ -289,6 +306,10 @@ a {
 
 /* Móvil pequeño */
 @media (max-width: 480px) {
+  body {
+    background: red !important;
+  }
+
   .nav {
     padding: 1rem 0.9rem 0 0.9rem;
   }
@@ -328,6 +349,11 @@ a {
   .section h3 {
     /*font-size: 2.3rem;  original*/
     font-size: 4.6rem;
+  }
+
+  .cajita,
+  .faq-item {
+    border: 10px solid blue !important;
   }
 
   .cajita p,
