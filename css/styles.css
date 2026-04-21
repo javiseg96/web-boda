@@ -114,10 +114,38 @@ a {
   margin-bottom: 1rem;
 }
 
-.hero-counter {
-  font-family: Arial, sans-serif;
-  font-size: clamp(1rem, 1.8vw, 1.25rem);
-  margin-bottom: 0;
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.countdown-item {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 14px;
+  padding: 0.9rem 1rem;
+  min-width: 90px;
+  text-align: center;
+  backdrop-filter: blur(4px);
+}
+
+.countdown-item span {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.countdown-item small {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 /* Secciones */
@@ -213,6 +241,24 @@ a {
     padding: 0 1rem;
   }
 
+  .countdown {
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.countdown-item {
+  min-width: 80px;
+  padding: 0.8rem 0.9rem;
+}
+
+.countdown-item span {
+  font-size: 1.8rem;
+}
+
+.countdown-item small {
+  font-size: 0.85rem;
+}
+
   .section {
     padding: 3rem 1.25rem;
   }
@@ -256,6 +302,23 @@ a {
     top: 16%;
     padding: 0 0.9rem;
   }
+
+  .countdown {
+  gap: 0.6rem;
+}
+
+.countdown-item {
+  min-width: 72px;
+  padding: 0.7rem 0.8rem;
+}
+
+.countdown-item span {
+  font-size: 1.6rem;
+}
+
+.countdown-item small {
+  font-size: 0.8rem;
+}
 
   .section h2 {
     /*font-size: 3.2rem;  original*/
