@@ -216,9 +216,23 @@ a {
     padding: 3rem 1.25rem;
   }
 
+  .section h2 {
+    font-size: 3.2rem;
+  }
+
+  .section h3 {
+    font-size: 2.3rem;
+  }
+
   .cajita,
   .faq-item {
     padding: 1.25rem;
+  }
+
+  .cajita p,
+  .faq-item p {
+    font-size: 2.1rem;
+    line-height: 1.65;
   }
 }
 
@@ -235,5 +249,19 @@ a {
   .hero-content {
     top: 16%;
     padding: 0 0.9rem;
+  }
+
+  .section h2 {
+    font-size: 3.2rem;
+  }
+
+  .section h3 {
+    font-size: 2.3rem;
+  }
+
+  .cajita p,
+  .faq-item p {
+    font-size: 2rem;
+    line-height: 1.6;
   }
 }
